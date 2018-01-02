@@ -135,6 +135,13 @@ body {
   margin: 0 auto;
 }
 
+#lower-description {
+  margin-top: 50px;
+  margin-bottom:0px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
 .col-centered{
   float: none;
   margin: 0 auto;
@@ -144,6 +151,7 @@ body {
   text-align: center;
   margin-top: 10px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
 header.masthead {
