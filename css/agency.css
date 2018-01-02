@@ -130,13 +130,19 @@ body {
         font-size: 1.25em;
         padding: 12px 0; } }
 
+#about-text {
+  width: 350px;
+  margin: 0 auto;
+}
+
 header.masthead {
   text-align: center;
+  height: 100vh;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../assets/img/mountain-view - Copy.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: left bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -159,7 +165,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 250px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
