@@ -165,6 +165,10 @@ body {
   font-size: 18px;
 }
 
+.project-description {
+  margin-top: 10px !important;
+}
+
 .contact-text {
   text-align: center;
   font-size: 22px;
