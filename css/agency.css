@@ -135,11 +135,22 @@ body {
   margin: 0 auto;
 }
 
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.description-text {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header.masthead {
   text-align: center;
   height: 100vh;
   color: white;
-  background-image: url("../assets/img/mountain-view - Copy.jpg");
+  background-image: url("../assets/img/mountain-view - Cropped.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left bottom;
