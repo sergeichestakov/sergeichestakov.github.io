@@ -81,6 +81,7 @@ body {
   -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
+  display: none;
   background-color: #212529; }
   #mainNav .navbar-toggler {
     font-size: 12px;
@@ -206,6 +207,9 @@ header.masthead {
   }
   #about-text {
     width: 370px;
+  }
+  #mainNav {
+    display: block;
   }
   header.masthead .intro-text {
     padding-top: 250px;
