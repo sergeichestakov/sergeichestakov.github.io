@@ -138,13 +138,6 @@ body {
   text-align: center;
 }
 
-#about-subheading {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-}
-
 [class*=" devicon-"], [class^=devicon-] {
   font-size: 100px;
 }
@@ -163,9 +156,9 @@ body {
 }
 
 .description-text {
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin-top: 10px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 
