@@ -145,6 +145,14 @@ body {
   font-style: normal;
 }
 
+[class*=" devicon-"], [class^=devicon-] {
+  font-size: 100px;
+}
+
+.col-md-2 {
+  padding-bottom: 20px;
+}
+
 .col-centered{
   float: none;
   margin: 0 auto;

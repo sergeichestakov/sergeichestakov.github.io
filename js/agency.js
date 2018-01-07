@@ -20,6 +20,16 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  //Make devicons pretty when you hover
+  const devicon = 'i[class*=devicon]';
+  $(devicon).hover((event) => {
+    let icon = event.target;
+    $(icon).removeClass('colored');
+  }, (event) => {
+    let icon = event.target;
+    $(icon).addClass('colored');
+  })
+
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
