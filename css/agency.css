@@ -149,6 +149,10 @@ body {
   font-size: 100px;
 }
 
+[class^=devicon-]:hover {
+  cursor: pointer;
+}
+
 .col-md-2 {
   padding-bottom: 20px;
 }
