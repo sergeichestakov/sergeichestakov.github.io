@@ -136,6 +136,7 @@ body {
   top:60px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  font-size: 18px;
 }
 
 [class*=" devicon-"], [class^=devicon-] {
@@ -147,7 +148,7 @@ body {
 }
 
 .col-md-2 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .col-centered{
@@ -200,9 +201,6 @@ header.masthead {
 
 /* Desktop */
 @media (min-width: 768px) {
-  #lower-description {
-    font-size: 20px;
-  }
   .contact-text {
     font-size: 22px;
   }
