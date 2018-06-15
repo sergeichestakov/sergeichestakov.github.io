@@ -178,11 +178,11 @@ header.masthead {
   background-image: url("../assets/img/mountain-view - Cropped.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 20% 95%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background-position: 20% 70%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%; }
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px; }
@@ -209,6 +209,9 @@ header.masthead {
   }
   #mainNav {
     display: block;
+  }
+  #team {
+    height: 100vh;
   }
   header.masthead .intro-text {
     padding-top: 250px;
