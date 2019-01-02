@@ -1323,7 +1323,6 @@
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 				width: 100%;
 			}
-
 	}
 
 /* Small */
@@ -1384,6 +1383,10 @@
 				h1 {
 					font-size: 1.35em;
 				}
+
+                #description {
+                    display: block; 
+                }
 			}
 
 		/* Footer */
