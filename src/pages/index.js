@@ -6,6 +6,11 @@ import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
 import favicon from '../assets/images/favicon.jpg'
+import resume from '../assets/Resume.pdf'
+
+import schedulehelper from '../assets/images/schedule-helper.png'
+import nosegoes from '../assets/images/nosegoes.jpg'
+import smartsensor from '../assets/images/smart-sensor.jpg'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -21,13 +26,13 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
-const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+const PROJECTS = [
+    { id: '1', src: 'https://getschedulehelper.com', thumbnail: schedulehelper, caption: 'Schedule Helper', description: 'Chrome Extension that helps UC Davis students select their schedules by highlighting conflicts. Recieved over 10,000 downloads (30% of students).'},
+    { id: '2', src:'https://devpost.com/software/nosegoes-45g87z' , thumbnail: nosegoes, caption: 'Nose Goes', description: 'Python application that allows a user to control their web browser entirely hands free using facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.'},
+    { id: '3', src:'https://devpost.com/software/smart-sensor' , thumbnail: smartsensor, caption: 'Smart Sensor', description: 'IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack and Particle Prize at HackDavis.'},
+    { id: '4', src: "https://github.com/mattrasto/phase", thumbnail: thumb04, caption: 'Phase', description: 'Network graph visualization framework for complex systems and simulations. Built on top of D3.js to expose an easy API to create dynamic graphs with real-time events '},
+    { id: '5', src: 'https://comma-visualizer.herokuapp.com/' , thumbnail: thumb05, caption: 'Comma Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma on any given day. Built using Flask, SQLite, and Mapbox.js.'},
+    { id: '6', src: "https://devpost.com/software/uncover-your-usage", thumbnail: thumb06, caption: 'Uncover Your Usage', description: 'Web application that predicts your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.'}
 ];
 
 class HomeIndex extends React.Component {
@@ -92,19 +97,20 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Background</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>I'm currently studying CS at UCSB and will be a software engineering intern at Google this summer.<br/>
+                        I'm very passionate about technology and creating products that make people's lives easier.
+                        </p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href={resume} className="button">Resume</a></li>
                         </ul>
                     </section>
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Projects</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                        <Gallery images={PROJECTS.map(({ id, src, thumbnail, caption, description }) => ({
                             src,
                             thumbnail,
                             caption,
@@ -112,7 +118,7 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
+                            <li><a href="#" className="button">See all projects</a></li>
                         </ul>
                     </section>
 
