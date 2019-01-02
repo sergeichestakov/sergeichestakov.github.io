@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
+import favicon from '../assets/images/favicon.jpg'
+
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
@@ -83,6 +85,7 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
+                        <link rel="shortcut icon" type="image/jpg" href={favicon} />
                 </Helmet>
 
                 <div id="main">
