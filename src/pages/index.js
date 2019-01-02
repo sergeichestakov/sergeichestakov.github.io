@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
 import favicon from '../assets/images/favicon.jpg'
@@ -11,28 +10,17 @@ import resume from '../assets/Resume.pdf'
 import schedulehelper from '../assets/images/schedule-helper.png'
 import nosegoes from '../assets/images/nosegoes.jpg'
 import smartsensor from '../assets/images/smart-sensor.jpg'
-
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
-
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
+import phase from '../assets/images/phase.png'
+import comma from '../assets/images/comma.png'
+import uncoveryourusage from '../assets/images/uncoveryourusage.jpg'
 
 const PROJECTS = [
-    { id: '1', src: 'https://getschedulehelper.com', thumbnail: schedulehelper, caption: 'Schedule Helper', description: 'Chrome Extension that helps UC Davis students select their schedules by highlighting conflicts. Recieved over 10,000 downloads (30% of students).'},
-    { id: '2', src:'https://devpost.com/software/nosegoes-45g87z' , thumbnail: nosegoes, caption: 'Nose Goes', description: 'Python application that allows a user to control their web browser entirely hands free using facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.'},
-    { id: '3', src:'https://devpost.com/software/smart-sensor' , thumbnail: smartsensor, caption: 'Smart Sensor', description: 'IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack and Particle Prize at HackDavis.'},
-    { id: '4', src: "https://github.com/mattrasto/phase", thumbnail: thumb04, caption: 'Phase', description: 'Network graph visualization framework for complex systems and simulations. Built on top of D3.js to expose an easy API to create dynamic graphs with real-time events '},
-    { id: '5', src: 'https://comma-visualizer.herokuapp.com/' , thumbnail: thumb05, caption: 'Comma Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma on any given day. Built using Flask, SQLite, and Mapbox.js.'},
-    { id: '6', src: "https://devpost.com/software/uncover-your-usage", thumbnail: thumb06, caption: 'Uncover Your Usage', description: 'Web application that predicts your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.'}
+    { id: '1', src: 'https://getschedulehelper.com', thumbnail: schedulehelper, caption: 'Schedule Helper', description: 'Chrome Extension that helps UC Davis students select their schedules by highlighting conflicts and displaying professor ratings. Recieved over 10,000 downloads (30% of students).'},
+    { id: '2', src:'https://devpost.com/software/nosegoes-45g87z', thumbnail: nosegoes, caption: 'Nose Goes', description: 'Python application that allows a user to control their web browser entirely hands free using only facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.'},
+    { id: '3', src:'https://devpost.com/software/smart-sensor', thumbnail: smartsensor, caption: 'Smart Sensor', description: 'IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack and Particle Prize at HackDavis.'},
+    { id: '4', src: "https://github.com/mattrasto/phase", thumbnail: phase, caption: 'Phase', description: 'Network graph visualization framework for complex systems and simulations. Built on top of D3.js to expose an easy API for creating dynamic graphs with real-time events.'},
+    { id: '5', src: 'https://comma-visualizer.herokuapp.com/', thumbnail: comma, caption: 'Comma Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma on any given day. Built using Flask, SQLite, and Mapbox.js.'},
+    { id: '6', src: "https://devpost.com/software/uncover-your-usage", thumbnail: uncoveryourusage, caption: 'Uncover Your Usage', description: 'Web application that predicts your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.'}
 ];
 
 class HomeIndex extends React.Component {
@@ -118,7 +106,7 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="#" className="button">See all projects</a></li>
+                            <li><a href="https://github.com/sergeichestakov" target="_blank" className="button">See More</a></li>
                         </ul>
                     </section>
 
