@@ -63,8 +63,9 @@ class Gallery extends Component {
                         className="image fit thumb"
                         href={obj.src}
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        <img src={obj.thumbnail} height="272" />
+                        <img src={obj.thumbnail} alt="project" height="272" />
                     </a>
 
                     <h3>{obj.caption}</h3>

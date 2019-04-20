@@ -94,7 +94,7 @@ class HomeIndex extends React.Component {
                           Computer Science. In my free time, I build side projects,
                           read books, and powerlift.</p>
                         <ul className="actions">
-                            <li><a href={resume} className="button" target="_blank">Resume</a></li>
+                            <li><a href={resume} className="button" target="_blank" rel="noopener noreferrer">Resume</a></li>
                         </ul>
                     </section>
 
@@ -110,7 +110,7 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="https://github.com/sergeichestakov" target="_blank" className="button">See More</a></li>
+                            <li><a href="https://github.com/sergeichestakov" target="_blank" rel="noopener noreferrer" className="button">See More</a></li>
                         </ul>
                     </section>
 
