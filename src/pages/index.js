@@ -19,7 +19,7 @@ const PROJECTS = [
     { id: '2', src:'https://devpost.com/software/nosegoes-45g87z', thumbnail: nosegoes, caption: 'Nose Goes', description: 'Python application that allows a user to control their web browser entirely hands free using only facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.'},
     { id: '3', src:'https://devpost.com/software/smart-sensor', thumbnail: smartsensor, caption: 'Smart Sensor', description: 'IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack at HackDavis.'},
     { id: '4', src: "https://github.com/mattrasto/phase", thumbnail: phase, caption: 'Phase', description: 'Network graph visualization library for complex systems and simulations. Built on top of D3.js to expose a simple API for creating dynamic graphs with real-time events.'},
-    { id: '5', src: 'https://comma-visualizer.herokuapp.com/', thumbnail: comma, caption: 'Comma Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma on any given day. Built using Flask, SQLite, and Mapbox.js.'},
+    { id: '5', src: 'https://comma-visualizer.herokuapp.com/', thumbnail: comma, caption: 'Speed Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma.ai on any given day. Built using Flask, SQLite, and Mapbox.js.'},
     { id: '6', src: "https://devpost.com/software/uncover-your-usage", thumbnail: uncoveryourusage, caption: 'Uncover Your Usage', description: 'Web application that predicts your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.'}
 ];
 
@@ -85,12 +85,14 @@ class HomeIndex extends React.Component {
                 <div id="main">
 
                     <section id="one">
-                        <header className="major">
-                            <h2>Background</h2>
-                        </header>
-                        <p>I'm currently studying CS at UCSB and will be a software engineering intern at Google this summer.<br/>
-                        I'm very passionate about technology and creating products that make people's lives easier.
-                        </p>
+                        <h2>About Me</h2>
+                        <p>I'm currently interning at Expo where we're working on
+                          making cross platform mobile apps easier to build.
+                          This summer I will be interning at Google working on
+                          Assistant. From there, I'll be looking for full time
+                          opportunities and finishing up my formal education in
+                          Computer Science. In my free time, I build side projects,
+                          read books, and powerlift.</p>
                         <ul className="actions">
                             <li><a href={resume} className="button" target="_blank">Resume</a></li>
                         </ul>
@@ -98,6 +100,7 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
                         <h2>Projects</h2>
+                        <p>I'm passionate about creating products that make people's lives easier. Here are some things I've built:</p>
 
                         <Gallery images={PROJECTS.map(({ id, src, thumbnail, caption, description }) => ({
                             src,
@@ -113,7 +116,7 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Contact</h2>
-                        <p>Feel free to reach out about opportunities, project ideas, or just to grab coffee!</p>
+                        <p>Hit me up if you're in the Bay Area! I'd love to grab coffee and chat.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
 
@@ -122,7 +125,7 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="mailto:sergeichestakov@ucsb.edu">schestakov@ucsb.edu</a>
+                                        <a href="mailto:schestakov@ucsb.edu">schestakov@ucsb.edu</a>
                                     </li>
                                 </ul>
                             </div>
