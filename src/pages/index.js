@@ -125,7 +125,7 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="mailto:schestakov@ucsb.edu">schestakov@ucsb.edu</a>
+                                        <a href="mailto:sergei332@gmail.com">sergei332@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
