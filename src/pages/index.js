@@ -7,6 +7,7 @@ import Gallery from '../components/Gallery'
 import favicon from '../assets/images/favicon.jpg'
 import resume from '../assets/Resume.pdf'
 
+import expo from '../assets/images/expo.jpg'
 import schedulehelper from '../assets/images/schedule-helper.png'
 import nosegoes from '../assets/images/nosegoes.jpg'
 import smartsensor from '../assets/images/smart-sensor.jpg'
@@ -15,12 +16,13 @@ import comma from '../assets/images/comma.png'
 import uncoveryourusage from '../assets/images/uncoveryourusage.jpg'
 
 const PROJECTS = [
-    { id: '1', src: 'https://getschedulehelper.com', thumbnail: schedulehelper, caption: 'Schedule Helper', description: 'Chrome Extension that helps UC Davis students select their schedules by highlighting conflicts and displaying professor ratings. Recieved over 10,000 downloads (30% of students).'},
-    { id: '2', src:'https://devpost.com/software/nosegoes-45g87z', thumbnail: nosegoes, caption: 'Nose Goes', description: 'Python application that allows a user to control their web browser entirely hands free using only facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.'},
-    { id: '3', src:'https://devpost.com/software/smart-sensor', thumbnail: smartsensor, caption: 'Smart Sensor', description: 'IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack at HackDavis.'},
-    { id: '4', src: "https://github.com/mattrasto/phase", thumbnail: phase, caption: 'Phase', description: 'Network graph visualization library for complex systems and simulations. Built on top of D3.js to expose a simple API for creating dynamic graphs with real-time events.'},
-    { id: '5', src: 'https://comma-visualizer.herokuapp.com/', thumbnail: comma, caption: 'Speed Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma.ai on any given day. Built using Flask, SQLite, and Mapbox.js.'},
-    { id: '6', src: "https://devpost.com/software/uncover-your-usage", thumbnail: uncoveryourusage, caption: 'Uncover Your Usage', description: 'Web application that predicts your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.'}
+    { id: '1', src: 'https://getschedulehelper.com', thumbnail: schedulehelper, caption: 'Schedule Helper', description: 'Chrome Extension that helps UC Davis students build their schedules by highlighting conflicts and displaying professor ratings. Recieved over 10,000 downloads (30% of students).'},
+    { id: '2', src: "https://docs.expo.io/versions/latest/sdk/in-app-purchases/", thumbnail: expo, caption: 'Expo In-App Purchases', description: 'React Native module and NPM package that abstracts over the native Android and iOS billing libraries and exposes a JS API to allow developers to monetize their RN/Expo apps.'},
+    { id: '3', src:'https://devpost.com/software/nosegoes-45g87z', thumbnail: nosegoes, caption: 'Nose Goes', description: 'Python application that allows a user to control their web browser entirely hands free using only facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.'},
+    { id: '4', src:'https://devpost.com/software/smart-sensor', thumbnail: smartsensor, caption: 'Smart Sensor', description: 'IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack at HackDavis.'},
+    { id: '5', src: "https://github.com/mattrasto/phase", thumbnail: phase, caption: 'Phase', description: 'Network graph visualization library for complex systems and simulations. Built on top of D3.js to expose a simple API for creating dynamic graphs with real-time events.'},
+    { id: '6', src: 'https://comma-visualizer.herokuapp.com/', thumbnail: comma, caption: 'Speed Visualizer', description: 'Web application that allows you to visualize the distribution of speed for every trip recorded by Comma.ai on any given day. Built using Flask, SQLite, and Mapbox.js.'},
+    { id: '7', src: "https://devpost.com/software/uncover-your-usage", thumbnail: uncoveryourusage, caption: 'Uncover Your Usage', description: 'Web application that predicts your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.'}
 ];
 
 class HomeIndex extends React.Component {
