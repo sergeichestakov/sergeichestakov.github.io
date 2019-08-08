@@ -119,9 +119,15 @@ class HomeIndex extends React.Component {
                         <h2>Contact</h2>
                         <p>Hit me up if you're in the Bay Area! I'd love to grab coffee and chat.</p>
                         <div className="row">
-                            <div className="8u 12u$(small)">
-
+                            <div className="4u 12u$(small)">
+                                <ul className="labeled-icons">
+                                    <li>
+                                        <h3 className="icon fa-twitter"><span className="label">Twitter</span></h3>
+                                        <a href="https://twitter.com/sergeichestakov">@SergeiChestakov</a>
+                                    </li>
+                                </ul>
                             </div>
+
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
