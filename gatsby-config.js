@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Sergei Chestakov - Portfolio',
+        short_name: 'Sergei',
         start_url: '/',
         background_color: '#212121',
         theme_color: '#212121',
