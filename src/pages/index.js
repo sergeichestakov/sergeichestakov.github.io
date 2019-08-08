@@ -90,10 +90,10 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <h2>About Me</h2>
-                        <p>I'm currently interning at Google on the Assistant team.
-                            Previously, I interned at Expo where I worked on making mobile apps easier to build.
+                        <p>I'm currently interning at Google on the Smart Home team under Assistant.
+                            Previously, I worked at Expo where I helped make mobile apps easier to build.
                             After that, I'll be finishing up my Computer Science degree and looking for full time opportunities.
-                            In my free time, I build side projects, read books, and powerlift.</p>
+                            In my free time, I build side projects, read books, run, skate, and powerlift.</p>
                         <ul className="actions">
                             <li><a href={resume} className="button" target="_blank" rel="noopener noreferrer">Resume</a></li>
                         </ul>
