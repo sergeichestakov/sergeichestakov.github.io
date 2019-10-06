@@ -94,9 +94,6 @@ class HomeIndex extends React.Component {
                             Previously, I was working at Google on the Assistant team.
                             Before that, I worked at Expo where I helped make cross platform mobile apps easier to build.
                             In my free time, I build side projects, read books, run, skate, and powerlift.</p>
-                        <ul className="actions">
-                            <li><a href={resume} className="button" target="_blank" rel="noopener noreferrer">Resume</a></li>
-                        </ul>
                     </section>
 
                     <section id="two">
