@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
 import favicon from '../assets/images/favicon.jpg'
-import resume from '../assets/Resume.pdf'
 
 import expo from '../assets/images/expo.jpg'
 import schedulehelper from '../assets/images/schedule-helper.png'
