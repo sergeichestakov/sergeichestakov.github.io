@@ -89,8 +89,8 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <h2>About Me</h2>
-                        <p>I'm currently finishing up my Computer Science degree.  
-                            Previously, I was working at Google on the Assistant team.
+                        <p>I'm currently working at Coda where we're building the future of docs.
+                            Previously, I was interning at Google on the Assistant team.
                             Before that, I worked at Expo where I helped make cross platform mobile apps easier to build.
                             In my free time, I build side projects, read books, run, skate, and powerlift.</p>
                     </section>
