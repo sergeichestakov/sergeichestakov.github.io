@@ -22,7 +22,7 @@ const PROJECTS = [
     thumbnail: schedulehelper,
     caption: "Schedule Helper",
     description:
-      "Chrome Extension that helps UC Davis students build their schedules by highlighting conflicts and displaying professor ratings. Over 10,000 monthly active users (30% of students).",
+      "Chrome Extension that helps UC Davis students build their schedules by highlighting conflicts and displaying professor ratings. Over 15,000 monthly active users.",
   },
   {
     id: "2",
