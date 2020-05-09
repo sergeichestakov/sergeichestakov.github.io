@@ -143,11 +143,13 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <h2>About Me</h2>
-            <p>
-              I'm currently working at Coda where we're building the future of
-              docs. Previously, I was interning at Google on the Assistant team.
-              Before that, I worked at Expo where I helped make cross platform
-              mobile apps easier to build. In my free time, I build side
+            <p class="description">
+              I'm currently working as a software engineer at{" "}
+              <a href="https://repl.it">Repl.it</a> where we're building the
+              future of online, collaborative IDEs. Previously, I worked at{" "}
+              <a href="https://coda.io">Coda</a>,{" "}
+              <a href="https://duckduckgo.com">Google</a>, and{" "}
+              <a href="https://expo.io">Expo</a>. In my free time, I build side
               projects, read books, run, skate, and powerlift.
             </p>
           </section>
