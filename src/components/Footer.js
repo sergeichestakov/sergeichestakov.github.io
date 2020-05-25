@@ -38,6 +38,14 @@ class Footer extends React.Component {
             </li>
             <li>
               <a
+                href="https://www.strava.com/athletes/43849250"
+                className="fab fa-strava fa-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a>
+            </li>
+            <li>
+              <a
                 href="https://open.spotify.com/user/sergei332"
                 className="fab fa-spotify fa-lg"
                 target="_blank"
