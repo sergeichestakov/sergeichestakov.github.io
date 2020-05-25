@@ -9,50 +9,40 @@ class Footer extends React.Component {
             <li>
               <a
                 href="mailto:sergei332@gmail.com"
-                className="icon fa-envelope-o"
-              >
-                <span className="label">Email</span>
-              </a>
+                className="fa fa-envelope-o fa-lg"
+              ></a>
             </li>
             <li>
               <a
                 href="https://github.com/sergeichestakov"
-                className="icon fa-github"
+                className="fab fa-github fa-lg"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span className="label">Github</span>
-              </a>
+              ></a>
             </li>
             <li>
               <a
                 href="https://linkedin.com/in/sergeichestakov/"
-                className="icon fa-linkedin"
+                className="fab fa-linkedin-in fa-lg"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span className="label">LinkedIn</span>
-              </a>
+              ></a>
             </li>
             <li>
               <a
                 href="https://twitter.com/sergeichestakov"
-                className="icon fa-twitter"
+                className="fab fa-twitter fa-lg"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span className="label">Twitter</span>
-              </a>
+              ></a>
             </li>
             <li>
               <a
                 href="https://open.spotify.com/user/sergei332"
-                className="icon fa-spotify"
+                className="fab fa-spotify fa-lg"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span className="label">Spotify</span>
-              </a>
+              ></a>
             </li>
           </ul>
         </div>

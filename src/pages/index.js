@@ -196,9 +196,7 @@ class HomeIndex extends React.Component {
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
                   <li>
-                    <h3 className="icon fa-twitter">
-                      <span className="label">Twitter</span>
-                    </h3>
+                    <h3 className="fab fa-twitter"></h3>
                     <a href="https://twitter.com/sergeichestakov">
                       @SergeiChestakov
                     </a>
@@ -209,9 +207,7 @@ class HomeIndex extends React.Component {
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
                   <li>
-                    <h3 className="icon fa-envelope-o">
-                      <span className="label">Email</span>
-                    </h3>
+                    <h3 className="fa fa-envelope-o"></h3>
                     <a href="mailto:sergei332@gmail.com">sergei332@gmail.com</a>
                   </li>
                 </ul>
