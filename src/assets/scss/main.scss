@@ -932,13 +932,11 @@
 			color: _palette(accent2, fg-bold);
 		}
 
-		h2, h3, h4, h5, h6 {
+		h1, h2, h3, h4, h5, h6 {
 			color: _palette(accent2, fg-bold);
 		}
 
 		h1 {
-			color: _palette(accent2, fg);
-			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}

@@ -143,7 +143,7 @@ export default class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <h2>About Me</h2>
-            <p class="description">
+            <p className="description">
               I'm currently working as a software engineer at{" "}
               <a
                 href="https://replit.com"
