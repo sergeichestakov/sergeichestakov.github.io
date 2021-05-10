@@ -15,7 +15,67 @@ import phase from "../assets/images/phase.png";
 import snapcode from "../assets/images/snapcode.png";
 import webmote from "../assets/images/webmote.jpg";
 
-const PROJECTS = [
+import deeplinking from "../assets/images/deeplinking.png";
+import multitabs from "../assets/images/multitabs.png";
+import search from "../assets/images/search.png";
+import shell from "../assets/images/tabbed-shell.png";
+import markdown from "../assets/images/markdown-preview.png";
+import captcha from "../assets/images/hcaptcha.png";
+import boosts from "../assets/images/boosts.jpg";
+import vite from "../assets/images/vite.png";
+
+const WORK_PROJECTS = [
+  {
+    src: "https://blog.replit.com/deeplinking",
+    thumbnail: deeplinking,
+    caption: "Deeplinking",
+    description: "Link to a specific file, line, and even column in a project.",
+  },
+  {
+    src: "https://blog.replit.com/multitabs",
+    thumbnail: multitabs,
+    caption: "Tabs",
+    description: "Open multiple files in different tabs.",
+  },
+  {
+    src: "https://blog.replit.com/commandbar",
+    thumbnail: search,
+    caption: "Search",
+    description: "Project wide search.",
+  },
+  {
+    src: "https://blog.replit.com/tabbed-shell",
+    thumbnail: shell,
+    caption: "Tabbed Shell",
+    description: "A better shell experience.",
+  },
+  {
+    src: "https://blog.replit.com/markdown-preview",
+    thumbnail: markdown,
+    caption: "Markdown Preview",
+    description: "Side by side markdown preview tab that follows your cursor.",
+  },
+  {
+    src: "https://www.hcaptcha.com/",
+    thumbnail: captcha,
+    caption: "hCaptcha",
+    description: "Led migration from reCaptcha to hCaptcha.",
+  },
+  {
+    src: "https://blog.replit.com/boosts",
+    thumbnail: boosts,
+    caption: "Boosts",
+    description: "Increased CPU and RAM resource limits for paid users.",
+  },
+  {
+    src: "https://blog.replit.com/vite",
+    thumbnail: vite,
+    caption: "Vite",
+    description: "A faster and leaner React template.",
+  },
+];
+
+const PERSONAL_PROJECTS = [
   {
     src: "https://twitter.com/SergeiChestakov/status/1289726580210561025?s=20",
     thumbnail: snapcode,
@@ -170,14 +230,33 @@ export default class HomeIndex extends React.Component {
           </section>
 
           <section id="two">
-            <h2>Projects</h2>
+            <h2>Work</h2>
             <p>
-              I'm passionate about building products that help people. Here are
-              some things I've built:
+              At Replit, I've built a lot. Here are some major features that I
+              designed, implemented, and shipped:
             </p>
 
             <Gallery
-              images={PROJECTS.map(
+              images={WORK_PROJECTS.map(
+                ({ src, thumbnail, caption, description }) => ({
+                  src,
+                  thumbnail,
+                  caption,
+                  description,
+                })
+              )}
+            />
+          </section>
+
+          <section id="three">
+            <h2>Projects</h2>
+            <p>
+              I'm passionate about building products that help people. Here are
+              some things I've built in my free time:
+            </p>
+
+            <Gallery
+              images={PERSONAL_PROJECTS.map(
                 ({ src, thumbnail, caption, description }) => ({
                   src,
                   thumbnail,
