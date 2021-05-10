@@ -53,7 +53,7 @@ const WORK_PROJECTS = [
     src: "https://blog.replit.com/markdown-preview",
     thumbnail: markdown,
     caption: "Markdown Preview",
-    description: "A real time preview for markdown.",
+    description: "A real time preview pane for markdown files.",
   },
   {
     src: "https://www.hcaptcha.com/",
