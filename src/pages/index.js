@@ -29,7 +29,7 @@ const WORK_PROJECTS = [
     src: "https://blog.replit.com/deeplinking",
     thumbnail: deeplinking,
     caption: "Deeplinking",
-    description: "Link to a specific file, line, and even column in a project.",
+    description: "Link to a specific file, line, and column.",
   },
   {
     src: "https://blog.replit.com/multitabs",
@@ -41,7 +41,7 @@ const WORK_PROJECTS = [
     src: "https://blog.replit.com/commandbar",
     thumbnail: search,
     caption: "Search",
-    description: "Project wide search.",
+    description: "Project-wide search.",
   },
   {
     src: "https://blog.replit.com/tabbed-shell",
@@ -53,13 +53,13 @@ const WORK_PROJECTS = [
     src: "https://blog.replit.com/markdown-preview",
     thumbnail: markdown,
     caption: "Markdown Preview",
-    description: "Side by side markdown preview tab that follows your cursor.",
+    description: "A real time preview for markdown.",
   },
   {
     src: "https://www.hcaptcha.com/",
     thumbnail: captcha,
     caption: "hCaptcha",
-    description: "Led migration from reCaptcha to hCaptcha.",
+    description: "Led site-wide migration from reCaptcha to hCaptcha.",
   },
   {
     src: "https://blog.replit.com/boosts",
@@ -80,7 +80,7 @@ const PERSONAL_PROJECTS = [
     src: "https://twitter.com/SergeiChestakov/status/1289726580210561025?s=20",
     thumbnail: snapcode,
     caption: "Snapcode",
-    description: "Take a picture of handwritten code and execute it.",
+    description: "Take a picture of handwritten code and run it.",
   },
   {
     src: "https://docs.expo.io/versions/latest/sdk/in-app-purchases/",
@@ -106,7 +106,7 @@ const PERSONAL_PROJECTS = [
     thumbnail: webmote,
     caption: "Webmote",
     description:
-      "A remote control for your browser. Best use of Expo at TreeHacks '19.",
+      "A remote control for your browser. Won prize at TreeHacks '19.",
   },
   {
     src: "https://crates.io/crates/todo-to-issue",
@@ -118,8 +118,7 @@ const PERSONAL_PROJECTS = [
     src: "https://devpost.com/software/smart-sensor",
     thumbnail: smartsensor,
     caption: "Smart Sensor",
-    description:
-      "IoT Device that automates your lights. Won top prize at HackDavis '17.",
+    description: "IoT Device that automates your lights. Won HackDavis '17.",
   },
   {
     src: "https://github.com/mattrasto/phase",
@@ -192,7 +191,7 @@ export default class HomeIndex extends React.Component {
           <section id="one">
             <h2>About Me</h2>
             <p className="description">
-              I'm currently working as a software engineer at{" "}
+              I'm currently a software engineer at{" "}
               <a
                 href="https://replit.com"
                 target="_blank"
@@ -200,7 +199,7 @@ export default class HomeIndex extends React.Component {
               >
                 Replit
               </a>{" "}
-              where we're building the future of programming. Previously, I
+              where we're building the future of programming. Previously, I've
               worked at{" "}
               <a
                 href="https://coda.io"
@@ -232,8 +231,8 @@ export default class HomeIndex extends React.Component {
           <section id="two">
             <h2>Work</h2>
             <p>
-              At Replit, I've built a lot. Here are some major features that I
-              designed, implemented, and shipped:
+              At Replit, I've built a lot. Here are some of the major features
+              that I designed, implemented, and shipped:
             </p>
 
             <Gallery
