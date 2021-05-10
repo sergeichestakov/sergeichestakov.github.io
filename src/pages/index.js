@@ -12,73 +12,61 @@ import nosegoes from "../assets/images/nosegoes.jpg";
 import smartsensor from "../assets/images/smart-sensor.jpg";
 import todotoissue from "../assets/images/todo-to-issue.png";
 import phase from "../assets/images/phase.png";
-import comma from "../assets/images/comma.png";
-import uncoveryourusage from "../assets/images/uncoveryourusage.jpg";
+import snapcode from "../assets/images/snapcode.png";
+import webmote from "../assets/images/webmote.jpg";
 
 const PROJECTS = [
   {
-    id: "1",
-    src: "https://getschedulehelper.com",
-    thumbnail: schedulehelper,
-    caption: "Schedule Helper",
-    description:
-      "Chrome Extension that helps UC Davis students build their schedules by highlighting conflicts and displaying professor ratings. Over 15,000 monthly active users.",
+    src: "https://twitter.com/SergeiChestakov/status/1289726580210561025?s=20",
+    thumbnail: snapcode,
+    caption: "Snapcode",
+    description: "Take a picture of handwritten code and execute it.",
   },
   {
-    id: "2",
     src: "https://docs.expo.io/versions/latest/sdk/in-app-purchases/",
     thumbnail: expo,
     caption: "Expo In-App Purchases",
     description:
-      "React Native module and NPM package that abstracts over the native Android and iOS billing libraries and exposes a JS API to allow developers to monetize their RN/Expo apps.",
+      "A React Native module for In-App Purchases on iOS and Android.",
   },
   {
-    id: "3",
-    src: "https://crates.io/crates/todo-to-issue",
-    thumbnail: todotoissue,
-    caption: "Todo-to-issue",
-    description:
-      "CLI tool that converts forgotten TODO comments into actionable GitHub issues interactively. Written entirely in Rust.",
-  },
-  {
-    id: "4",
-    src: "https://github.com/mattrasto/phase",
-    thumbnail: phase,
-    caption: "Phase",
-    description:
-      "Network graph visualization library for complex systems and simulations. Built on top of D3.js to expose a simple API for creating dynamic graphs with real-time events.",
-  },
-  {
-    id: "5",
     src: "https://devpost.com/software/nosegoes-45g87z",
     thumbnail: nosegoes,
     caption: "Nose Goes",
-    description:
-      "Python application that allows a user to control their web browser entirely hands free using only facial gestures and voice commands. Built using OpenCV, Selenium, and GCP.",
+    description: "Control your web browser hands free.",
   },
   {
-    id: "6",
+    src: "https://getschedulehelper.com",
+    thumbnail: schedulehelper,
+    caption: "Schedule Helper",
+    description: "A Chrome Extension for UC Davis students. Over 15,000 MAUs.",
+  },
+  {
+    src: "https://devpost.com/software/webmote-tkf2lc",
+    thumbnail: webmote,
+    caption: "Webmote",
+    description:
+      "A remote control for your browser. Best use of Expo at TreeHacks '19.",
+  },
+  {
+    src: "https://crates.io/crates/todo-to-issue",
+    thumbnail: todotoissue,
+    caption: "Todo-to-issue",
+    description: "CLI tool that converts TODO comments into GitHub issues.",
+  },
+  {
     src: "https://devpost.com/software/smart-sensor",
     thumbnail: smartsensor,
     caption: "Smart Sensor",
     description:
-      "IoT Device that monitors the number of people in a room and automates lights to reduce energy consumption. Won Best Environmental Hack at HackDavis.",
+      "IoT Device that automates your lights. Won top prize at HackDavis '17.",
   },
   {
-    id: "7",
-    src: "https://comma-visualizer.herokuapp.com/",
-    thumbnail: comma,
-    caption: "Speed Visualizer",
+    src: "https://github.com/mattrasto/phase",
+    thumbnail: phase,
+    caption: "Phase",
     description:
-      "Web application that allows you to visualize the distribution of speed for every trip recorded by Comma.ai on any given day from their dataset. Built using Flask, SQLite, and Mapbox.js.",
-  },
-  {
-    id: "8",
-    src: "https://devpost.com/software/uncover-your-usage",
-    thumbnail: uncoveryourusage,
-    caption: "Uncover Your Usage",
-    description:
-      "Web application that uses a custom pretrained model to predict your annual energy usage based on an analysis of your household features. Built using Flask, Vue.js, and Keras.",
+      "Graph visualization library for complex systems and simulations.",
   },
 ];
 
@@ -184,13 +172,13 @@ export default class HomeIndex extends React.Component {
           <section id="two">
             <h2>Projects</h2>
             <p>
-              I'm passionate about creating products that make people's lives
-              easier. Here are some things I've built:
+              I'm passionate about building products that help people. Here are
+              some things I've built:
             </p>
 
             <Gallery
               images={PROJECTS.map(
-                ({ id, src, thumbnail, caption, description }) => ({
+                ({ src, thumbnail, caption, description }) => ({
                   src,
                   thumbnail,
                   caption,
