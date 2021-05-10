@@ -82,7 +82,7 @@ const PROJECTS = [
   },
 ];
 
-class HomeIndex extends React.Component {
+export default class HomeIndex extends React.Component {
   constructor() {
     super();
 
@@ -145,12 +145,39 @@ class HomeIndex extends React.Component {
             <h2>About Me</h2>
             <p class="description">
               I'm currently working as a software engineer at{" "}
-              <a href="https://repl.it">Repl.it</a> where we're building the
-              future of online, collaborative IDEs. Previously, I worked at{" "}
-              <a href="https://coda.io">Coda</a>,{" "}
-              <a href="https://duckduckgo.com">Google</a>, and{" "}
-              <a href="https://expo.io">Expo</a>. In my free time, I build side
-              projects, read books, run, skate, and powerlift.
+              <a
+                href="https://replit.com"
+                target="_blank"
+                rel="noreferrer noopener nofollow"
+              >
+                Replit
+              </a>{" "}
+              where we're building the future of programming. Previously, I
+              worked at{" "}
+              <a
+                href="https://coda.io"
+                target="_blank"
+                rel="noreferrer noopener nofollow"
+              >
+                Coda
+              </a>
+              ,{" "}
+              <a
+                href="https://duckduckgo.com"
+                target="_blank"
+                rel="noreferrer noopener nofollow"
+              >
+                Google
+              </a>
+              , and{" "}
+              <a
+                href="https://expo.io"
+                target="_blank"
+                rel="noreferrer noopener nofollow"
+              >
+                Expo
+              </a>
+              . I've also contracted for a number of other startups on the side.
             </p>
           </section>
 
@@ -177,7 +204,7 @@ class HomeIndex extends React.Component {
                 <a
                   href="https://github.com/sergeichestakov"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="button"
                 >
                   See More
@@ -197,7 +224,11 @@ class HomeIndex extends React.Component {
                 <ul className="labeled-icons">
                   <li>
                     <h3 className="fab fa-twitter"></h3>
-                    <a href="https://twitter.com/sergeichestakov">
+                    <a
+                      href="https://twitter.com/sergeichestakov"
+                      target="_blank"
+                      rel="nofollow noreferrer noopener"
+                    >
                       @SergeiChestakov
                     </a>
                   </li>
@@ -208,7 +239,9 @@ class HomeIndex extends React.Component {
                 <ul className="labeled-icons">
                   <li>
                     <h3 className="fa fa-envelope-o"></h3>
-                    <a href="mailto:sergei332@gmail.com">sergei332@gmail.com</a>
+                    <a href="mailto:sergei@chestakov.com">
+                      sergei@chestakov.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -219,5 +252,3 @@ class HomeIndex extends React.Component {
     );
   }
 }
-
-export default HomeIndex;
