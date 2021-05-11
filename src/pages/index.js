@@ -305,9 +305,7 @@ export default class HomeIndex extends React.Component {
                 <ul className="labeled-icons">
                   <li>
                     <h3 className="fa fa-envelope-o"></h3>
-                    <a href="mailto:sergei@chestakov.com">
-                      sergei@chestakov.com
-                    </a>
+                    <a href="mailto:sergei332@gmail.com">sergei332@gmail.com</a>
                   </li>
                 </ul>
               </div>
