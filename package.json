@@ -1,5 +1,5 @@
 {
-  "name": "sergeichestakov.github.io",
+  "name": "sergei.com",
   "description": "Portfolio for Sergei Chestakov",
   "version": "1.0.0",
   "author": "Sergei Chestakov <me@sergei.com>",
@@ -16,7 +16,7 @@
     "react-images": "^0.5.19"
   },
   "keywords": [
-    "gatsby"
+    "sergei"
   ],
   "license": "MIT",
   "scripts": {
