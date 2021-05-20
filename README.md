@@ -1,3 +1,14 @@
-## sergeichestakov.github.io
+## sergei.com
 
-Personal Website
+My portfolio and personal website.
+
+```bash
+# Install deps
+yarn
+
+# Develop
+yarn develop 
+
+# Deploy
+yarn deploy
+```
