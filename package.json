@@ -2,7 +2,7 @@
   "name": "sergeichestakov.github.io",
   "description": "Portfolio for Sergei Chestakov",
   "version": "1.0.0",
-  "author": "Sergei Chestakov <sergei332@gmail.com>",
+  "author": "Sergei Chestakov <me@sergei.com>",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",

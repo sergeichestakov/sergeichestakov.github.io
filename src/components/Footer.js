@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="mailto:sergei332@gmail.com"
+                href="mailto:me@sergei.com"
                 className="fa fa-envelope-o fa-lg"
               ></a>
             </li>
