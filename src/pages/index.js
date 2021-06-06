@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import Layout from "../components/layout";
 import Gallery from "../components/Gallery";
 
-import favicon from "../assets/images/favicon.jpg";
+import favicon from "../assets/images/favicon.png";
 
 import expo from "../assets/images/expo.jpg";
 import schedulehelper from "../assets/images/schedule-helper.png";
